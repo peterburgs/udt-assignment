@@ -7,7 +7,6 @@ export type Listing = {
 	name: string;
 	container: number;
 	totalCost: number;
-	index?: number;
 	weight?: number;
 };
 
@@ -20,12 +19,11 @@ const execute = (
 };
 
 const enrichListings = (listings: Listing[]): Listing[] => {
-	const enrichedListings = listings.map((listing, index) => {
+	const enrichedListings = listings.map((listing) => {
 		return {
 			name: listing.name,
 			container: listing.container,
 			totalCost: listing.totalCost,
-			index: index,
 			weight: listing.container / listing.totalCost,
 		};
 	});
@@ -57,8 +55,6 @@ const verifyResults = (
 	neededContainer: number,
 ) => {
 	const results = processListings(listings, neededContainer);
-
-	console.log(getRentedContainer(results));
 
 	if (getRentedContainer(results) === neededContainer) {
 		printer(

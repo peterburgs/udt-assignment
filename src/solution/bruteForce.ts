@@ -1,7 +1,6 @@
 // JavaScript code for Dynamic Programming based
 // solution for 0-1 Knapsack problem
 // TODO: implement the printing format
-import logger from "../helpers/logger";
 import { Listing } from "./algorithm";
 // Prints the items which are put
 // in a knapsack of capacity W
@@ -48,7 +47,6 @@ function knapSack(
 		if (res == K[i - 1][w]) continue;
 		else {
 			// This item is included.
-			//logger.info(`container: ${containers[i - 1]}`);
 			results.push(listings[i - 1]);
 
 			// Since this weight is included its
