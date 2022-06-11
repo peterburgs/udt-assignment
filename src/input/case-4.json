@@ -1,0 +1,45 @@
+{
+	"listings": [
+		{
+			"name": "Container renter A",
+			"container": 5,
+			"totalCost": 5
+		},
+		{
+			"name": "Container renter B",
+			"container": 2,
+			"totalCost": 10
+		},
+		{
+			"name": "Container renter C",
+			"container": 10,
+			"totalCost": 3
+		},
+		{
+			"name": "Container renter D",
+			"container": 4,
+			"totalCost": 7
+		},
+		{
+			"name": "Container renter E",
+			"container": 2,
+			"totalCost": 5
+		},
+		{
+			"name": "Container renter F",
+			"container": 20,
+			"totalCost": 100
+		},
+		{
+			"name": "Container renter G",
+			"container": 20,
+			"totalCost": 30
+		},
+		{
+			"name": "Container renter H",
+			"container": 100,
+			"totalCost": 5
+		}
+	],
+	"neededContainer": 150
+}

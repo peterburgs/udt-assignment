@@ -5,5 +5,6 @@ const logger: Logger = new Logger({
 	displayFunctionName: false,
 	displayFilePath: "hidden",
 	printLogMessageInNewLine: true,
+	displayLoggerName: false,
 });
 export default logger;

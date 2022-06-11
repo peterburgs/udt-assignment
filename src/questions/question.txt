@@ -49,7 +49,7 @@
                   name: "Container renter C",
                   container: 2,
                   totalCost: 3,
-                },
+                }, 
               ];
           - Output:
               [Contract with] Container renter A 5 container, price: 5

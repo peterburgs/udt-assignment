@@ -1,0 +1,20 @@
+{
+	"listings": [
+		{
+			"name": "Container renter A",
+			"container": 60,
+			"totalCost": 10
+		},
+		{
+			"name": "Container renter B",
+			"container": 100,
+			"totalCost": 20
+		},
+		{
+			"name": "Container renter C",
+			"container": 120,
+			"totalCost": 30
+		}
+	],
+	"neededContainer": 220
+}
