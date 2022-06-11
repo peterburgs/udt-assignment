@@ -64,7 +64,6 @@ const verifyResults = (
 			getCost(results),
 		);
 	} else {
-		logger.info("Trying with Brute Force...");
 		const bruteForceResults = runBruteForce(
 			listings,
 			neededContainer,
