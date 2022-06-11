@@ -16,8 +16,10 @@ Install dependency: `npm install`
 Run app: `npm start`
 
 <h2>Output</h2>
+
 The log should looks like
-```2022-06-11 16:19:29.752  INFO  Trying with Brute Force...
+
+```
 2022-06-11 16:19:29.754  INFO  [Contract with] Container renter B 2 container, price: 10
 2022-06-11 16:19:29.755  INFO  [Contract with] Container renter C 2 container, price: 3
 2022-06-11 16:19:29.755  INFO  [Contract with] Container renter A 5 container, price: 5
